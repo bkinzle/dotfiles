@@ -30,11 +30,12 @@ brew bundle --file ./Brewfile
 echo "▶ Applying iTerm2 settings..."
 ~/dotfiles/iterm/install.sh
 
-# Symlink files from dotfile repo to home directory
-echo "▶ Symlinking dotfiles to home directory..."
+# Symlink files from dotfile repo to well-known locations
+echo "▶ Symlinking dotfiles to well-known locations..."
 DOTFILES_DIR="$HOME/dotfiles"
 ln -sf "$DOTFILES_DIR/.config/starship.toml" ~/.config/starship.toml
 ln -sf "$DOTFILES_DIR/.zshrc" ~/.zshrc
+ln -sf "$DOTFILES_DIR/vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json
 
 # Set macOS preferences - we will run this last because this will reload the shell
 echo "▶ Applying macOS settings..."

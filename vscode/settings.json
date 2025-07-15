@@ -1,0 +1,68 @@
+{
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.scrollback": 10000000,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "explorer.compactFolders": false,
+    "git.allowForcePush": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "search.exclude": {
+        "**/.venv": true
+    },
+    "notebook.output.textLineLimit": 2000,
+    "notebook.lineNumbers": "on",
+    "[jinja-sql]": {
+        "editor.tabSize": 2
+    },
+    "githubPullRequests.pullBranch": "never",
+    "files.associations": {
+        "*.ndjson": "jsonl",
+        "*.hcl": "terraform"
+    },
+    "remote.autoForwardPortsFallback": 0,
+    "python.interpreter.infoVisibility": "always",
+    "jupyter.askForKernelRestart": false,
+    "redhat.telemetry.enabled": false,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "vs-kubernetes": {
+        "disable-linters": [
+            "resource-limits"
+        ],
+        "vs-kubernetes.namespace": "",
+        "vs-kubernetes.kubectl-path": "",
+        "vs-kubernetes.helm-path": "",
+        "vs-kubernetes.minikube-path": "",
+        "vs-kubernetes.kubectlVersioning": "user-provided",
+        "vs-kubernetes.outputFormat": "yaml",
+        "vs-kubernetes.kubeconfig": "",
+        "vs-kubernetes.knownKubeconfigs": [],
+        "vs-kubernetes.autoCleanupOnDebugTerminate": false,
+        "vs-kubernetes.nodejs-autodetect-remote-root": true,
+        "vs-kubernetes.nodejs-remote-root": "",
+        "vs-kubernetes.nodejs-debug-port": 9229,
+        "vs-kubernetes.dotnet-vsdbg-path": "~/vsdbg/vsdbg",
+        "vs-kubernetes.local-tunnel-debug-provider": "",
+        "checkForMinikubeUpgrade": true,
+        "imageBuildTool": "Docker"
+    },
+    "pylint.args": [
+        "\"pylint.args\": [\"--disable=C0111\", \"--max-line-length=140\"]"
+    ],
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "file:/**/*.parquet": "jupyter-data-wrangler"
+    },
+    "editor.tabSize": 2,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.fontFamily": "Hack Nerd Font Mono, Menlo, Monaco, 'Courier New', monospace",
+}

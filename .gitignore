@@ -1,2 +1,4 @@
-.color-scheme-imported
+# macOS system files
+.DS_Store
 
+.color-scheme-imported

@@ -34,6 +34,7 @@ echo "▶ Applying iTerm2 settings..."
 echo "▶ Symlinking dotfiles to home directory..."
 DOTFILES_DIR="$HOME/dotfiles"
 ln -sf "$DOTFILES_DIR/.config/starship.toml" ~/.config/starship.toml
+ln -sf "$DOTFILES_DIR/.zshrc" ~/.zshrc
 
 # Set macOS preferences - we will run this last because this will reload the shell
 echo "▶ Applying macOS settings..."

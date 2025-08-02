@@ -42,6 +42,7 @@ echo "▶ Symlinking dotfiles to their well-known/default locations..."
 DOTFILES_DIR="$HOME/dotfiles"
 ln -sf "$DOTFILES_DIR/.config/starship.toml" ~/.config/starship.toml
 ln -sf "$DOTFILES_DIR/.zshrc" ~/.zshrc
+ln -sf "$DOTFILES_DIR/.zprofile" ~/.zprofile
 ln -sf "$DOTFILES_DIR/aliases.zsh" ~/.oh-my-zsh/custom/aliases.zsh
 ln -sf "$DOTFILES_DIR/.hushlogin" ~/.hushlogin
 ln -sf "$DOTFILES_DIR/vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json

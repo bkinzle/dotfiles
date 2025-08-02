@@ -24,7 +24,7 @@ only_attached = true
 disabled = true
 
 [gcloud]
-disabled = false
+disabled = true
 
 [cmd_duration]
 style = 'bold italic bright-yellow'

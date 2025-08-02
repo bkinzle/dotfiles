@@ -71,6 +71,9 @@ cask "docker-desktop", greedy: true
 cask "gcloud-cli", postinstall: "${HOMEBREW_PREFIX}/bin/gcloud components update"
 
 # Web browser
+cask "firefox", greedy: true
+
+# Web browser
 cask "google-chrome", greedy: true
 
 # Chromium based browser
@@ -81,6 +84,9 @@ cask "visual-studio-code", greedy: true
 
 # Video communication and virtual meeting platform
 cask "zoom", greedy: true
+
+# VPN client
+cask "private-internet-access", greedy: true
 
 # Fonts
 cask "font-hack-nerd-font"

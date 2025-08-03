@@ -45,6 +45,8 @@ ln -sf "$DOTFILES_DIR/.zshrc" ~/.zshrc
 ln -sf "$DOTFILES_DIR/.zprofile" ~/.zprofile
 ln -sf "$DOTFILES_DIR/aliases.zsh" ~/.oh-my-zsh/custom/aliases.zsh
 ln -sf "$DOTFILES_DIR/.hushlogin" ~/.hushlogin
+mkdir -p ~/.config/mise
+ln -sf "$DOTFILES_DIR/.config/mise/config.toml" ~/.config/mise/config.toml
 ln -sf "$DOTFILES_DIR/vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json
 
 # Clone oh-my-zsh plugins if they don't exist

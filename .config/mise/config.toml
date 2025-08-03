@@ -1,0 +1,17 @@
+[tools]
+java = "openjdk-21"
+maven = "3"
+python = "3.13"
+terraform = "1"
+terragrunt = "latest"
+uv = "latest"
+devspace = "latest"
+jq = "latest"
+yq = "latest"
+
+[settings]
+idiomatic_version_file_enable_tools = []
+experimental = true
+
+[settings.python]
+uv_venv_auto = true

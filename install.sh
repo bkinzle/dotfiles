@@ -16,7 +16,6 @@ fi
 if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
   eval "$(/opt/homebrew/bin/brew shellenv)"
   brew analytics off
 else
@@ -48,6 +47,7 @@ ln -sf "$DOTFILES_DIR/.hushlogin" ~/.hushlogin
 mkdir -p ~/.config/mise
 ln -sf "$DOTFILES_DIR/.config/mise/config.toml" ~/.config/mise/config.toml
 ln -sf "$DOTFILES_DIR/vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json
+ln -sf "$DOTFILES_DIR/.gitconfig" ~/.gitconfig
 
 # Clone oh-my-zsh plugins if they don't exist
 echo
@@ -61,6 +61,11 @@ fi
 if [ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting" ]; then
    git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 fi
+
+# Install mise managed tools
+echo
+echo "▶ Installing mise managed tools..."
+source ~/.zprofile && mise upgrade --yes
 
 # Create cron jobs
 echo

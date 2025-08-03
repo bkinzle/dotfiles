@@ -1,0 +1,9 @@
+[fetch]
+	prune = true
+[core]
+	pager =
+[user]
+	name = Brandt Kinzle
+	email = 114622981+bkinzle@users.noreply.github.com
+[init]
+	defaultBranch = main

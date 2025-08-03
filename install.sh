@@ -60,6 +60,12 @@ if [ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting" ]; then
    git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 fi
 
+# Create cron jobs
+echo
+echo "▶ Creating cron jobs..."
+~/dotfiles/cron/brew_update_upgrade_cleanup_cron.sh
+~/dotfiles/cron/mise_global_tool_upgrade_cron.sh
+
 # Set macOS preferences - we will run this last because this will reload the shell
 echo
 echo "▶ Applying macOS settings..."

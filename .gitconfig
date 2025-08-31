@@ -7,3 +7,5 @@
 	email = 114622981+bkinzle@users.noreply.github.com
 [init]
 	defaultBranch = main
+[includeIf "gitdir:~/gerk-projects/"]
+    path = ~/gerk-projects/.gitconfig

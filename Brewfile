@@ -88,6 +88,9 @@ cask "zoom", greedy: true
 # VPN client
 cask "private-internet-access", greedy: true
 
+# Music streaming service
+cask "spotify", greedy: true
+
 # Fonts
 cask "font-hack-nerd-font"
 cask "font-monaspace-nerd-font"

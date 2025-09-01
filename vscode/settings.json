@@ -66,4 +66,5 @@
     "github.copilot.nextEditSuggestions.enabled": true,
     "editor.fontFamily": "Hack Nerd Font Mono, Menlo, Monaco, 'Courier New', monospace",
     "githubLocalActions.dockerDesktopPath": "/Applications/Docker.app",
+    "docker.extension.enableComposeLanguageServer": false,
 }

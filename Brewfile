@@ -112,6 +112,7 @@ vscode "sanjulaganepola.github-local-actions"
 vscode "mhutchie.git-graph"
 vscode "redhat.vscode-yaml"
 vscode "usernamehw.errorlens"
+vscode "ms-azuretools.vscode-containers"
 
 ###############################################################################
 # Mac App Store

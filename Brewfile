@@ -57,6 +57,9 @@ brew "starship"
 # YAML Parser
 brew "libyaml"
 
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+
 ###############################################################################
 # Casks
 ###############################################################################

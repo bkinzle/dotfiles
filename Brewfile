@@ -60,6 +60,9 @@ brew "libyaml"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
 
+# Scalable batch and stream data processing
+brew "apache-flink"
+
 ###############################################################################
 # Casks
 ###############################################################################
@@ -116,6 +119,7 @@ vscode "mhutchie.git-graph"
 vscode "redhat.vscode-yaml"
 vscode "usernamehw.errorlens"
 vscode "ms-azuretools.vscode-containers"
+vscode "ms-python.python"
 
 ###############################################################################
 # Mac App Store

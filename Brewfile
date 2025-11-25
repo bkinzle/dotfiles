@@ -100,9 +100,12 @@ cask "private-internet-access", greedy: true
 # Music streaming service
 cask "spotify", greedy: true
 
+# Screenshot measurement and annotation tool
+cask "shottr", greedy: true
+
 # Fonts
 cask "font-hack-nerd-font"
-cask "font-monaspace-nerd-font"
+cask "font-monaspice-nerd-font"
 cask "font-fira-code-nerd-font"
 cask "font-fira-mono-nerd-font"
 
@@ -120,6 +123,10 @@ vscode "redhat.vscode-yaml"
 vscode "usernamehw.errorlens"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-python.python"
+vscode "tamasfe.even-better-toml"
+vscode "mechatroner.rainbow-csv"
+vscode "oderwat.indent-rainbow"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
 
 ###############################################################################
 # Mac App Store

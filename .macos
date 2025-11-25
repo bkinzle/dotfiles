@@ -17,5 +17,11 @@ defaults write com.apple.finder AppleShowAllFiles -bool true
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 13
 
+# Disable spelling autocorrect system-wide
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+# Disable double-space → period
+defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
+
 echo
 echo "▶ Done. Note that some of these changes require a logout/restart to take effect."

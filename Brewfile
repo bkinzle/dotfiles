@@ -21,6 +21,9 @@ brew "git"
 # GitHub command-line tool
 brew "gh"
 
+# Like cURL, but for gRPC
+brew "grpcurl"
+
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
 

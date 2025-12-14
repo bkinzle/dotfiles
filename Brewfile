@@ -106,6 +106,9 @@ cask "spotify", greedy: true
 # Screenshot measurement and annotation tool
 cask "shottr", greedy: true
 
+# Native GUI tool for relational databases
+cask "tableplus", greedy: true
+
 # Fonts
 cask "font-hack-nerd-font"
 cask "font-monaspice-nerd-font"
@@ -130,6 +133,7 @@ vscode "tamasfe.even-better-toml"
 vscode "mechatroner.rainbow-csv"
 vscode "oderwat.indent-rainbow"
 vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "streetsidesoftware.code-spell-checker"
 
 ###############################################################################
 # Mac App Store

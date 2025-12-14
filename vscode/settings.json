@@ -67,4 +67,12 @@
     "editor.fontFamily": "Hack Nerd Font Mono, Menlo, Monaco, 'Courier New', monospace",
     "githubLocalActions.dockerDesktopPath": "/Applications/Docker.app",
     "docker.extension.enableComposeLanguageServer": false,
+    "cSpell.customDictionaries": {
+        "custom-dictionary-user": {
+            "name": "custom-dictionary-user",
+            "path": "~/dotfiles/.config/cspell/custom-dictionary-user.txt",
+            "addWords": true,
+            "scope": "user"
+        }
+    },
 }

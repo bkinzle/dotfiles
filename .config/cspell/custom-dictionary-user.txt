@@ -457,6 +457,7 @@ storepass
 strimzi
 STRIMZI
 Strimzi's
+strpos
 subcharts
 supergraph
 supergraphs

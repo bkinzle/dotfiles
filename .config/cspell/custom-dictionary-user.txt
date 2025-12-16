@@ -11,6 +11,7 @@ AIRTABLE
 aiven
 Aiven's
 alltime
+anyio
 APAC
 apollograph
 apollographql
@@ -20,6 +21,7 @@ artifactregistry
 asyncio
 atlasgo
 ATTRIBUTEVALUE
+authlib
 autofetch
 autopushdown
 autoreg
@@ -47,9 +49,11 @@ buildmessagereader
 buildpush
 Buildx
 bzrignore
+cachetools
 cadvisor
 callsite
 capitalisation
+certifi
 CERTKEY
 certmanager
 cgroupfs
@@ -90,6 +94,7 @@ COROOT
 crashloopbackon
 crcs
 crds
+createdb
 creds
 Criu
 cronpgsourcer
@@ -156,6 +161,7 @@ esac
 EXTD
 fargate
 fastapi
+fastavro
 featureusageanalytics
 FEATUREUSAGEANALYTICSVALUE
 FETCHSIZE
@@ -192,10 +198,13 @@ hostmetrics
 hostnames
 hotreload
 htmlcov
+httpcore
 httpfs
+httpx
 Hugetlb
 hushlogin
 IAMROLE
+idna
 ifnull
 ilike
 importcert
@@ -374,6 +383,7 @@ pushgateway
 pyarrow
 pybuilder
 pycache
+pycparser
 pydantic
 pydruid
 pyenv
@@ -458,6 +468,7 @@ statsd
 STATUSPAGE
 storageclasses
 storepass
+streamhouse
 strimzi
 STRIMZI
 Strimzi's
@@ -489,6 +500,7 @@ trunc
 trustcacerts
 trustmanager
 truststore
+tzdata
 unhex
 unhexlify
 unrenamed
@@ -503,6 +515,7 @@ upserted
 upserting
 urandom
 urlencode
+urllib3
 urql
 usrlib
 uuidgen

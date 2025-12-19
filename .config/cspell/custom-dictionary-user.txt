@@ -15,6 +15,7 @@ anyio
 APAC
 apollograph
 apollographql
+appuser
 argparse4j
 ariga
 artifactregistry
@@ -56,6 +57,7 @@ capitalisation
 certifi
 CERTKEY
 certmanager
+cffi
 cgroupfs
 chainguard
 changeit

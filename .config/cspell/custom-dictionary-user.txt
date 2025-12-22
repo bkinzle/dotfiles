@@ -10,6 +10,8 @@ adrs
 AIRTABLE
 aiven
 Aiven's
+alertmanager
+alertquerier
 alltime
 anyio
 APAC
@@ -414,6 +416,7 @@ rejson
 relogin
 replayer
 replicasets
+reportserver
 requirepass
 resourcemanager
 reviewdog
@@ -538,5 +541,6 @@ xcom
 xolstice
 xxcr
 yetus
+zplane
 zstandard
 zstd

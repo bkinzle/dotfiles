@@ -109,6 +109,9 @@ cask "shottr", greedy: true
 # Native GUI tool for relational databases
 cask "tableplus", greedy: true
 
+# Terminal-based AI coding assistant
+cask "claude-code", greedy: true
+
 # Fonts
 cask "font-hack-nerd-font"
 cask "font-monaspice-nerd-font"

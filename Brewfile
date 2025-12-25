@@ -137,6 +137,7 @@ vscode "mechatroner.rainbow-csv"
 vscode "oderwat.indent-rainbow"
 vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
 vscode "streetsidesoftware.code-spell-checker"
+vscode "charliermarsh.ruff"
 
 ###############################################################################
 # Mac App Store

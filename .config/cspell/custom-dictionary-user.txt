@@ -247,6 +247,7 @@ kafbat
 kafkaconnect
 kafkaconnects
 kafkactl
+kafkametrics
 kafkaui
 kafkaversion
 Kaniko
@@ -263,6 +264,8 @@ kubeconform
 kubecontext
 kubectx
 kubeinvaders
+kubelet
+kubeletstats
 labelmap
 lakehouse
 Larah

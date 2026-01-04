@@ -10,9 +10,6 @@
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "explorer.compactFolders": false,
     "git.allowForcePush": true,
-    "[python]": {
-        "editor.formatOnType": true
-    },
     "workbench.colorTheme": "Default Dark+",
     "search.exclude": {
         "**/.venv": true
@@ -53,16 +50,12 @@
         "checkForMinikubeUpgrade": true,
         "imageBuildTool": "Docker"
     },
-    "pylint.args": [
-        "\"pylint.args\": [\"--disable=C0111\", \"--max-line-length=140\"]"
-    ],
     "workbench.editorAssociations": {
         "*.copilotmd": "vscode.markdown.preview.editor",
         "file:/**/*.parquet": "jupyter-data-wrangler"
     },
     "editor.tabSize": 2,
     "diffEditor.ignoreTrimWhitespace": false,
-    "python.analysis.typeCheckingMode": "basic",
     "github.copilot.nextEditSuggestions.enabled": true,
     "editor.fontFamily": "Hack Nerd Font Mono, Menlo, Monaco, 'Courier New', monospace",
     "githubLocalActions.dockerDesktopPath": "/Applications/Docker.app",

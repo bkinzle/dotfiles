@@ -457,6 +457,7 @@ sfdc
 shellcheck
 shellenv
 shortlinks
+signum
 signup
 sinked
 sint

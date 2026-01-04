@@ -68,4 +68,5 @@
             "scope": "user"
         }
     },
+    "terminal.integrated.suggest.enabled": false,
 }

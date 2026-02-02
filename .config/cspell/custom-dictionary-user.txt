@@ -72,6 +72,7 @@ CICD
 cimg
 clearbit
 clickhouse
+clickstack
 clientid
 clinit
 cloudasset
@@ -105,6 +106,7 @@ creds
 Criu
 cronpgsourcer
 crossinline
+cuid
 customchecks
 customise
 cython
@@ -126,6 +128,7 @@ dayhour
 dayofweek
 dbtable
 dbtuser
+dbug
 Dcom
 deadletterqueue
 debugfs
@@ -152,6 +155,7 @@ ebpf
 edgemodifier
 elif
 EMEA
+emerg
 endcall
 endfor
 endgroup
@@ -160,6 +164,8 @@ endraw
 endset
 endsnapshot
 engineproxy
+ensurepip
+envoyproxy
 envsubst
 erdantic
 errorifexists
@@ -176,11 +182,13 @@ fileoutputcommitter
 fira
 Fivetran
 FLINK
+fluentforward
 fmtfile
 fmtymlfile
 framesize
 fromjson
 gameified
+gatewayclass
 gcscompositiondeliverywriter
 GCSTOBIGQUERY
 GCSTOGCS
@@ -210,6 +218,7 @@ httpfs
 httpx
 Hugetlb
 hushlogin
+hyperdx
 IAMROLE
 idna
 ifnull
@@ -271,6 +280,7 @@ kubelet
 kubeletstats
 labelmap
 lakehouse
+Lakekeeper
 Larah
 libexec
 libpq
@@ -360,6 +370,7 @@ partitioner
 passfile
 pbspark
 pekko
+pemja
 persistedqueries
 persistentvolumeclaims
 persistentvolumes
@@ -371,6 +382,7 @@ PINGONE
 pipefail
 pipelinesworkers
 PIPESTATUS
+PKCS
 PKIX
 podam
 podsandbox
@@ -431,10 +443,12 @@ rolearn
 rollouts
 rollup
 rollups
+rrweb
 S3ACCESSKEY
 S3SECRETKEY
 safelist
 safelisting
+sandboxed
 sandboxer
 sasl
 schemapublisher
@@ -474,6 +488,7 @@ sqlfluffignore
 sqlmodel
 sslmode
 stagingschemapromoter
+starrocks
 statefulset
 statefulsets
 statsd
@@ -512,6 +527,7 @@ trunc
 trustcacerts
 trustmanager
 truststore
+Turbopack
 tzdata
 unhex
 unhexlify
@@ -537,6 +553,7 @@ vcpus
 venv
 VERION
 vhost
+Vitests
 volumeattachments
 vsdbg
 Wallclock
@@ -545,6 +562,7 @@ webhooklistener
 WISTIA
 worky
 xcom
+xforwarded
 xolstice
 xxcr
 yetus

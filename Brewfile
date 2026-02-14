@@ -73,6 +73,9 @@ brew "apache-flink"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2", greedy: true
 
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty", greedy: true
+
 # Voice and text chat software
 cask "discord"
 

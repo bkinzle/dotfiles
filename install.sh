@@ -48,6 +48,8 @@ mkdir -p ~/.config/mise
 ln -sf "$DOTFILES_DIR/.config/mise/config.toml" ~/.config/mise/config.toml
 ln -sf "$DOTFILES_DIR/vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json
 ln -sf "$DOTFILES_DIR/.gitconfig" ~/.gitconfig
+mkdir -p ~/.config/ghostty
+ln -sf "$DOTFILES_DIR/.config/ghostty/config" ~/.config/ghostty/config
 
 # Clone oh-my-zsh plugins if they don't exist
 echo

@@ -18,6 +18,7 @@ alertquerier
 alltime
 anyio
 APAC
+apiextensions
 apollograph
 apollographql
 appender
@@ -30,6 +31,7 @@ atlasgo
 ATTRIBUTEVALUE
 authlib
 autofetch
+automountServiceAccountToken
 autopushdown
 autoreg
 autoregdetector
@@ -37,6 +39,7 @@ autoregpromoter
 autostash
 avsc
 awscred
+backpressure
 bdist
 beautifulsoup
 benmanes
@@ -53,6 +56,7 @@ blocklisted
 blueapron
 bothify
 BUCKETNAME
+bufferpool
 buildmessagereader
 buildpush
 Buildx
@@ -62,6 +66,7 @@ cachetools
 cadvisor
 callsite
 capitalisation
+cephfs
 certifi
 CERTKEY
 certmanager
@@ -187,15 +192,19 @@ featureusageanalytics
 FEATUREUSAGEANALYTICSVALUE
 FETCHSIZE
 fileoutputcommitter
+finalizers
 fira
 Fivetran
 FLINK
+flinkdep
+flinkdeployment
 flinkdeploymentcontroller
 flinkdeployments
 flinksessionjobcontroller
 flinksessionjobs
 flinkstatesnapshotcontroller
 flinkstatesnapshots
+flocker
 fluentforward
 fmtfile
 fmtymlfile
@@ -210,6 +219,7 @@ gdrive
 GENCODE
 genproto
 githubstatussyncer
+glusterfs
 googleusercontent
 graphos
 graphref
@@ -222,6 +232,7 @@ healthz
 hgignore
 Hightouch
 HISTOGRAMVALUE
+historicals
 Hmac
 hostmetrics
 hostnames
@@ -251,6 +262,7 @@ ipynb
 ipython
 ipywidgets
 isalpha
+iscsi
 isin
 isoweek
 iterm
@@ -310,11 +322,13 @@ lifecyle
 linkinvalidator
 linuxkit
 loadmodule
+loadqueuepeon
 localdev
 localtest
 loglevel
 logmetrics2datadog
 LOWERBOUND
+lowprio
 lpad
 ltrim
 lxml
@@ -326,6 +340,7 @@ marksuccessfuljobs
 masterauth
 matplotlib
 MAXAGGREGATERESULTS
+maxbuffer
 MAXDIRECTMEMORYSIZE
 maxmessagebytes
 MAXSEARCHRESULTS
@@ -361,6 +376,7 @@ nosemgrep
 nosetests
 notificationsdispatcher
 notificationsscheduler
+nullglob
 NUMPARTITIONS
 nxmwm
 oauthbearer
@@ -371,6 +387,7 @@ oncall
 Oneofs
 opcol
 opcol-postgres
+openAPIV3Schema
 openmetrics
 openobserve
 opensearch
@@ -380,6 +397,7 @@ operationfetchstats
 operationscheck
 operationschecker
 osascript
+OshiSysMonitor
 ossrh
 otelcol
 OTHERSERVICEACCOUNTNAME
@@ -412,6 +430,7 @@ podam
 poddisruptionbudget
 podsandbox
 popd
+portworxVolume
 posexplode
 postrenderer
 postres
@@ -448,6 +467,7 @@ PYTHONIOENCODING
 PYTHONPATH
 pytype
 quantiles
+quobyte
 Rainu
 rawtypes
 rdjson
@@ -458,6 +478,7 @@ REDISJSON
 REDISPORT
 redistimeseries
 referer
+Reingestion
 rejson
 Reloadable
 relogin
@@ -498,6 +519,7 @@ selfhosted
 selfmonitoring
 selfsigned
 serde
+serverview
 serviceaccounts
 serviceagent
 servicenetworking
@@ -529,6 +551,7 @@ statefulsets
 statsd
 STATUSPAGE
 storageclasses
+storageos
 storepass
 streamhouse
 strimzi
@@ -536,11 +559,13 @@ STRIMZI
 Strimzi's
 strpos
 subcharts
+subresource
 supergraph
 supergraphs
 sysctls
 TASKFILE
 taskflow
+tasklock
 taskmanager
 technicalsupport
 templater
@@ -564,10 +589,13 @@ trunc
 trustcacerts
 trustmanager
 truststore
+ttfb
 Turbopack
 tzdata
+unannounce
 unhex
 unhexlify
+unparseable
 unrenamed
 unshallow
 unskipped
@@ -599,11 +627,13 @@ webassets
 webhooklistener
 WISTIA
 worky
+wwids
 xcom
 xforwarded
 xolstice
 xxcr
 yetus
+Znode
 zplane
 zstandard
 zstd

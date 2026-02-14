@@ -66,6 +66,9 @@ brew "protobuf"
 # Scalable batch and stream data processing
 brew "apache-flink"
 
+# Terminal multiplexer
+brew "tmux"
+
 ###############################################################################
 # Casks
 ###############################################################################

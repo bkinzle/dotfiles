@@ -1,5 +1,5 @@
 # Transparency & blur for glassy effect
-background-opacity = 0.67
+background-opacity = 0.80
 background-blur-radius = 3
 
 # Window styling
@@ -34,17 +34,17 @@ palette = 0=#414868
 palette = 1=#f7768e
 palette = 2=#9ece6a
 palette = 3=#e0af68
-palette = 4=#7aa2f7
-palette = 5=#bb9af7
-palette = 6=#7dcfff
+palette = 4=#89b4fa
+palette = 5=#e0b0ff
+palette = 6=#89f0ff
 palette = 7=#a9b1d6
-palette = 8=#414868
+palette = 8=#9aa5ce
 palette = 9=#f7768e
 palette = 10=#9ece6a
 palette = 11=#e0af68
-palette = 12=#7aa2f7
-palette = 13=#bb9af7
-palette = 14=#7dcfff
+palette = 12=#a9c4ff
+palette = 13=#e2bdff
+palette = 14=#b4f5ff
 palette = 15=#c0caf5
 
 # Reduce bold brightness to avoid blowing out on glass

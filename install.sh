@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
 echo "▶ Setting up your Mac..."
 
@@ -50,6 +51,9 @@ ln -sf "$DOTFILES_DIR/vscode/settings.json" ~/Library/Application\ Support/Code/
 ln -sf "$DOTFILES_DIR/.gitconfig" ~/.gitconfig
 mkdir -p ~/.config/ghostty
 ln -sf "$DOTFILES_DIR/.config/ghostty/config" ~/.config/ghostty/config
+ln -sf "$DOTFILES_DIR/.tmux.conf" ~/.tmux.conf
+mkdir -p ~/bin
+ln -sf "$DOTFILES_DIR/bin/agent4pane" ~/bin/agent4pane
 
 # Clone oh-my-zsh plugins if they don't exist
 echo

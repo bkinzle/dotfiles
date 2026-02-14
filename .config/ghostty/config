@@ -3,8 +3,8 @@ background-opacity = 0.67
 background-blur-radius = 3
 
 # Window styling
-window-padding-x = 12
-window-padding-y = 10
+window-padding-x = 3
+window-padding-y = 3
 window-decoration = true
 
 # Window size

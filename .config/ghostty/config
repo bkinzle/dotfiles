@@ -53,3 +53,6 @@ bold-is-bright = false
 # Infinite scrollback
 scrollback-limit = 90000000
 
+# Newline (claude code/codex/etc)
+keybind = shift+enter=text:\n
+

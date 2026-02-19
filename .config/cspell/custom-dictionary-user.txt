@@ -294,6 +294,7 @@ kafkaui
 kafkaversion
 Kaniko
 kellys
+keybind
 keymanager
 keyspace
 keytool
@@ -317,6 +318,7 @@ Larah
 libexec
 libpq
 libprotoc
+librdkafka
 libyaml
 lifecyle
 linkinvalidator
@@ -356,6 +358,7 @@ micromamba
 Millis
 mktemp
 monaspace
+MonaspiceNe
 MULTIGET
 multiregion
 mutationwebhook
@@ -471,6 +474,7 @@ quobyte
 Rainu
 rawtypes
 rdjson
+rdkafka
 recurly
 redisbloom
 redisearch

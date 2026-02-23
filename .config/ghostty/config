@@ -1,10 +1,10 @@
 # Transparency & blur for glassy effect
-background-opacity = 0.80
-background-blur-radius = 3
+background-opacity = 0.84
+background-blur-radius = 5
 
 # Window styling
-window-padding-x = 3
-window-padding-y = 3
+window-padding-x = 4
+window-padding-y = 4
 window-decoration = true
 
 # Window size
@@ -18,16 +18,16 @@ font-size = 13
 # High-contrast colors that read well on transparent backgrounds
 # Using a slightly warm dark theme with good contrast
 
-background = 1a1b26
-foreground = c0caf5
+background = 141425
+foreground = d8dee9
 
 # Cursor
 cursor-color = 7aa2f7
 cursor-style = block
 
 # Selection (slightly brighter for visibility)
-selection-background = 33467c
-selection-foreground = c0caf5
+selection-background = 2a2a4a
+selection-foreground = d8dee9
 
 # ANSI colors - Tokyo Night inspired, tweaked for transparency
 palette = 0=#414868

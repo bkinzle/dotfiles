@@ -81,6 +81,7 @@ checkpointing
 chunksize
 CICD
 cimg
+classloader
 clearbit
 clickhouse
 clickstack
@@ -98,6 +99,7 @@ clusterrolebinding
 cmdclass
 cniconfig
 cnpg
+codahale
 codegen
 Codeowners
 COLDLINE
@@ -546,6 +548,7 @@ secretmanager
 selfhosted
 selfmonitoring
 selfsigned
+semconv
 serde
 serverview
 serviceaccounts
@@ -613,16 +616,20 @@ touchpoints
 tracecontext
 tracefs
 TRACEID
+traceparent
+tracestate
 triggerer
 trixie
 trunc
 trustcacerts
 trustmanager
 truststore
+truststores
 ttfb
 Turbopack
 tzdata
 unannounce
+Undeploying
 unhex
 unhexlify
 unparseable

@@ -68,5 +68,7 @@
             "scope": "user"
         }
     },
+    "debug.internalConsoleOptions": "openOnSessionStart",
     "terminal.integrated.suggest.enabled": false,
+    "claudeCode.preferredLocation": "panel",
 }

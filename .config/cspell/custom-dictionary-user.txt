@@ -241,6 +241,7 @@ gdrive
 GENCODE
 genproto
 getenv
+ghostty
 githubstatussyncer
 glusterfs
 googleusercontent

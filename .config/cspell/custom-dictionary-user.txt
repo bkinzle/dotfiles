@@ -5,6 +5,8 @@ accesstoken
 acephei
 acks
 addext
+addgroup
+adduser
 adminclient
 admissionregistration
 Adoptium
@@ -22,10 +24,12 @@ apiextensions
 apollograph
 apollographql
 appender
+appname
 appuser
 argparse4j
 ariga
 artifactregistry
+assertj
 asyncio
 atlasgo
 ATTRIBUTEVALUE
@@ -67,6 +71,7 @@ cachetools
 cadvisor
 callsite
 capitalisation
+CDPATH
 cephfs
 certifi
 CERTKEY
@@ -132,6 +137,7 @@ daemonset
 dagrun
 datadogforwarder
 datadoghq
+datafaker
 datagen
 datagenproduct
 datahub
@@ -143,6 +149,7 @@ datastax
 datastudio
 datetimestamp
 dateutil
+davidmc24
 dayhour
 dayofweek
 dbtable
@@ -161,12 +168,14 @@ distro
 Djava
 Djavax
 Dlog
+Dlogback
 Dlogging
 Dmaven
 dmypy
 DNSMASQ
 Dockerfiles
 dockerhub
+Dorg
 dotenv
 dpage
 druidcustodian
@@ -182,6 +191,7 @@ emerg
 endcall
 endfor
 endgroup
+endlocal
 endmacro
 endraw
 endset
@@ -193,6 +203,7 @@ envsubst
 erdantic
 errorifexists
 errorlens
+ERRORLEVEL
 esac
 excepthook
 EXTD
@@ -229,9 +240,12 @@ GCSTOGCS
 gdrive
 GENCODE
 genproto
+getenv
 githubstatussyncer
 glusterfs
 googleusercontent
+gradleup
+gradlew
 graphos
 graphref
 graphviz
@@ -247,6 +261,7 @@ Hightouch
 HISTOGRAMVALUE
 historicals
 Hmac
+HOCON
 hostmetrics
 hostnames
 hotreload
@@ -285,13 +300,16 @@ itertuples
 jaas
 javaagent
 javac
+JAVACMD
 javadocs
 jbod
 jdbc
 jemos
+jengelman
 jetstack
 jgss
 jinjahtml
+jlleitschuh
 jmxremote
 jobmanager
 jobstore
@@ -317,6 +335,7 @@ keytool
 kinit
 kmondor
 kotlinx
+ktlint
 ktor
 kubeconfig
 Kubeconfigs
@@ -343,6 +362,7 @@ loadmodule
 loadqueuepeon
 localdev
 localtest
+logback
 loglevel
 logmetrics2datadog
 LOWERBOUND
@@ -364,6 +384,7 @@ maxmessagebytes
 MAXSEARCHRESULTS
 MELTANO
 Menlo
+metacharacter
 Metaspace
 METRICATTRIBUTE
 METRICVALUE
@@ -555,10 +576,12 @@ serviceaccounts
 serviceagent
 servicenetworking
 sessioned
+setlocal
 setuptools
 sfdc
 shellcheck
 shellenv
+shellness
 shortlinks
 signum
 signup
@@ -627,6 +650,7 @@ truststore
 truststores
 ttfb
 Turbopack
+typesafe
 tzdata
 unannounce
 Undeploying

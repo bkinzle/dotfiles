@@ -21,6 +21,8 @@ alltime
 anyio
 APAC
 apiextensions
+apikey
+apmsocket
 apollograph
 apollographql
 appender
@@ -60,9 +62,11 @@ blackfmt
 blocklisted
 blueapron
 bothify
+bpffs
 BUCKETNAME
 bufferpool
 buildmessagereader
+buildplan
 buildpush
 Buildx
 Burstable
@@ -77,12 +81,14 @@ certifi
 CERTKEY
 certmanager
 cffi
+cfgpath
 cgroupfs
 chainguard
 changeit
 charliermarsh
 checkcoordinator
 checkpointing
+checksd
 chunksize
 CICD
 cimg
@@ -99,6 +105,7 @@ cloudnative
 cloudpickle
 cloudsql
 cloudsqlproxy
+clusteragent
 clusterrole
 clusterrolebinding
 cmdclass
@@ -110,11 +117,14 @@ Codeowners
 COLDLINE
 Collibra
 condarc
+confd
 configdelivery
 configmap
 confluentinc
 connexion
 containerd
+containerizer
+coordinateusage
 copilotmd
 coredns
 Corefile
@@ -164,6 +174,7 @@ deletecollection
 devcontainers
 develocity
 devspace
+dghttp
 distro
 Djava
 Djavax
@@ -175,6 +186,7 @@ dmypy
 DNSMASQ
 Dockerfiles
 dockerhub
+dogstatsdport
 Dorg
 dotenv
 dpage
@@ -217,6 +229,7 @@ fileoutputcommitter
 finalizers
 fira
 Fivetran
+flamegraph
 FLINK
 flinkdep
 flinkdeployment
@@ -265,6 +278,7 @@ Hmac
 HOCON
 hostmetrics
 hostnames
+hostroot
 hotreload
 htmlcov
 httpcore
@@ -286,6 +300,7 @@ inferschema
 ingester
 Ingestionregulator
 initdb
+installinfo
 insync
 ipykernel
 ipynb
@@ -323,8 +338,11 @@ k8soperator
 kafbat
 kafkaconnect
 kafkaconnects
+kafkaconsumer
 kafkactl
 kafkametrics
+kafkasink
+kafkasourcereader
 kafkaui
 kafkaversion
 Kaniko
@@ -335,6 +353,8 @@ keyspace
 keytool
 kinit
 kmondor
+kotest
+kotlinJVMAPM
 kotlinx
 ktlint
 ktor
@@ -351,6 +371,7 @@ labelmap
 lakehouse
 Lakekeeper
 Larah
+lastcheckpointduration
 libexec
 libpq
 libprotoc
@@ -364,8 +385,12 @@ loadqueuepeon
 localdev
 localtest
 logback
+logdatadog
+logdockercontainerpath
 loglevel
 logmetrics2datadog
+logpodpath
+logscontainerspath
 LOWERBOUND
 lowprio
 lpad
@@ -445,6 +470,7 @@ OshiSysMonitor
 ossrh
 otelcol
 OTHERSERVICEACCOUNTNAME
+otlpgrpcport
 otlphttp
 outofbandreporter
 outputcommitter
@@ -472,7 +498,9 @@ PKCS
 PKIX
 podam
 poddisruptionbudget
+PODRESOURCES
 podsandbox
+pointerdir
 popd
 portworxVolume
 posexplode
@@ -481,6 +509,7 @@ postres
 preconfigured
 preprod
 primaryteam
+procdir
 procps
 projectcalico
 proposalscheck
@@ -536,6 +565,7 @@ relogin
 replayer
 replicasets
 reportserver
+reportsstream
 requirepass
 resourcemanager
 reviewdog
@@ -548,6 +578,7 @@ rollups
 rrweb
 ruamel
 Runbook
+runtimesocketdir
 S3ACCESSKEY
 S3SECRETKEY
 safelist
@@ -606,10 +637,13 @@ statefulset
 statefulsets
 statsd
 STATUSPAGE
+stdlib
 storageclasses
 storageos
 storepass
 streamhouse
+streamprocessing
+streamprocessor
 strimzi
 STRIMZI
 Strimzi's
@@ -619,6 +653,7 @@ subresource
 supergraph
 supergraphs
 sysctls
+sysprobe
 TASKFILE
 taskflow
 tasklock
@@ -632,6 +667,7 @@ thomaskwscott
 threefi
 timestampformat
 timestamptz
+timgroup
 tini
 tmproj
 tojson
@@ -641,6 +677,7 @@ tracecontext
 tracefs
 TRACEID
 traceparent
+traceport
 tracestate
 triggerer
 trixie
@@ -657,6 +694,7 @@ unannounce
 Undeploying
 unhex
 unhexlify
+unixsocket
 unparseable
 unrenamed
 unshallow

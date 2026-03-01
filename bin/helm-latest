@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [ -z "$1" ]; then
+  echo "Usage: helm-latest <helm_repo_url>"
+  exit 1
+fi
+
+curl -s "${1%/}/index.yaml" \
+  | yq -r '.entries | to_entries[] | "\(.key): \(.value[0].version)"'

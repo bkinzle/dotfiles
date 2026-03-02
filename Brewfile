@@ -69,6 +69,9 @@ brew "apache-flink"
 # Terminal multiplexer
 brew "tmux"
 
+# Simple terminal UI for git commands
+brew "lazygit"
+
 ###############################################################################
 # Casks
 ###############################################################################

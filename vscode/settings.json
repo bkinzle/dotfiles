@@ -70,4 +70,7 @@
     },
     "terminal.integrated.suggest.enabled": false,
     "claudeCode.preferredLocation": "panel",
+    // Tweak wheel sensitivity in terminal
+    "terminal.integrated.mouseWheelScrollSensitivity": 2.8,
+    "terminal.integrated.smoothScrolling": true,
 }

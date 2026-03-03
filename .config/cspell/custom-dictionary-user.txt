@@ -25,12 +25,15 @@ apikey
 apmsocket
 apollograph
 apollographql
+appcreds
 appender
+appengine
 appname
 appuser
 argparse4j
 ariga
 artifactregistry
+arturbosch
 assertj
 asyncio
 atlasgo
@@ -59,6 +62,7 @@ bkin
 bkinzle
 blackbox
 blackfmt
+blobless
 blocklisted
 blueapron
 bothify
@@ -145,8 +149,10 @@ customise
 cython
 daemonset
 dagrun
+databind
 datadogforwarder
 datadoghq
+datadriven
 datafaker
 datagen
 datagenproduct
@@ -172,6 +178,7 @@ debugfs
 dedup
 dedupe
 deletecollection
+detekt
 devcontainers
 develocity
 devspace
@@ -179,11 +186,13 @@ dghttp
 distro
 Djava
 Djavax
+Djib
 Dlog
 Dlogback
 Dlogging
 Dmaven
 dmypy
+dnsjava
 DNSMASQ
 Dockerfiles
 dockerhub
@@ -218,11 +227,13 @@ errorifexists
 errorlens
 ERRORLEVEL
 esac
+eventtime
 excepthook
 EXTD
 fargate
 fastapi
 fastavro
+fasterxml
 featureusageanalytics
 FEATUREUSAGEANALYTICSVALUE
 FETCHSIZE
@@ -273,6 +284,7 @@ hdfs
 healthz
 hgignore
 Hightouch
+Hikari
 HISTOGRAMVALUE
 historicals
 Hmac
@@ -282,6 +294,7 @@ hostnames
 hostroot
 hotreload
 htmlcov
+httpclient
 httpcore
 httpfs
 httplib2
@@ -315,6 +328,7 @@ iterm
 iterrows
 itertuples
 jaas
+Jacoco
 javaagent
 javac
 JAVACMD
@@ -333,6 +347,7 @@ jobstore
 JOSDK
 jsonpickle
 jsonschema
+jsonsmart
 k8sclusterreceiver
 k8sobjectsreceiver
 k8soperator
@@ -354,9 +369,11 @@ keyspace
 keytool
 kinit
 kmondor
+Koin
 kotest
 kotlinJVMAPM
 kotlinx
+kover
 ktlint
 ktor
 kubeconfig
@@ -385,6 +402,7 @@ loadmodule
 loadqueuepeon
 localdev
 localtest
+lockfiles
 logback
 logdatadog
 logdockercontainerpath
@@ -409,6 +427,7 @@ maxbuffer
 MAXDIRECTMEMORYSIZE
 maxmessagebytes
 MAXSEARCHRESULTS
+mebibytes
 MELTANO
 Menlo
 metacharacter
@@ -591,6 +610,7 @@ sandboxed
 sandboxer
 sasl
 savepoint
+savepoints
 schemapublisher
 schemaregistry
 scim
@@ -661,6 +681,7 @@ TASKFILE
 taskflow
 tasklock
 taskmanager
+taskmanger
 technicalsupport
 templater
 tempview
@@ -672,6 +693,7 @@ timestampformat
 timestamptz
 timgroup
 tini
+titlecase
 tmproj
 tojson
 tolerations
@@ -691,6 +713,7 @@ truststore
 truststores
 ttfb
 Turbopack
+typeinfo
 typesafe
 tzdata
 unannounce
@@ -734,9 +757,11 @@ worky
 wwids
 xcom
 xforwarded
+xlarge
 xolstice
 xxcr
 yetus
+zaxxer
 Znode
 zplane
 zstandard

@@ -169,6 +169,7 @@ Dcom
 Ddatadog
 deadletterqueue
 debugfs
+dedup
 dedupe
 deletecollection
 devcontainers
@@ -418,11 +419,13 @@ mgmt
 mgrep
 michaelbull
 micromamba
+Milli
 Millis
 mktemp
 monaspace
 MonaspiceNe
 MULTIGET
+multiquery
 multiregion
 mutationwebhook
 mypy

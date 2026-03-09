@@ -68,6 +68,7 @@
             "scope": "user"
         }
     },
+    "cSpell.language": "en,en-AU",
     "terminal.integrated.suggest.enabled": false,
     "claudeCode.preferredLocation": "panel",
     // Tweak wheel sensitivity in terminal

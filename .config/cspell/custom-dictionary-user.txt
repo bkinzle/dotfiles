@@ -25,6 +25,7 @@ apikey
 apmsocket
 apollograph
 apollographql
+apollonaut
 appcreds
 appender
 appengine
@@ -104,6 +105,7 @@ clientid
 clinit
 cloudasset
 cloudcomposer
+cloudflareaccess
 cloudflared
 cloudnative
 cloudpickle

@@ -111,6 +111,7 @@ cloudnative
 cloudpickle
 cloudsql
 cloudsqlproxy
+cloudtrace
 clusteragent
 clusterrole
 clusterrolebinding
@@ -128,6 +129,7 @@ configdelivery
 configmap
 confluentinc
 connexion
+conntrack
 containerd
 containerizer
 coordinateusage
@@ -154,6 +156,7 @@ dagrun
 databind
 datadogforwarder
 datadoghq
+DATADOGMETRIC
 datadriven
 datafaker
 datagen
@@ -232,6 +235,7 @@ esac
 eventtime
 excepthook
 EXTD
+fanout
 fargate
 fastapi
 fastavro
@@ -245,10 +249,12 @@ fira
 Fivetran
 flamegraph
 FLINK
+flinkbluegreendeployments
 flinkdep
 flinkdeployment
 flinkdeploymentcontroller
 flinkdeployments
+flinkreportstatsfanout
 flinksessionjobcontroller
 flinksessionjobs
 flinkstatesnapshotcontroller
@@ -326,6 +332,7 @@ isalpha
 iscsi
 isin
 isoweek
+istiod
 iterm
 iterrows
 itertuples
@@ -594,6 +601,7 @@ requirepass
 resourcemanager
 reviewdog
 rhai
+rocksdb
 rolearn
 rolebinding
 rollouts
@@ -673,6 +681,7 @@ strimzi
 STRIMZI
 Strimzi's
 strpos
+subchart
 subcharts
 subresource
 supergraph
@@ -689,6 +698,7 @@ templater
 tempview
 temurin
 terragrunt
+tfenv
 thomaskwscott
 threefi
 timestampformat

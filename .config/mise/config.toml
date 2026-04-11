@@ -13,6 +13,7 @@ node = "latest"
 fzf = "latest"
 go = "latest"
 bun = "latest"
+codex = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = []

@@ -385,6 +385,7 @@ kotlinx
 kover
 ktlint
 ktor
+kube_ownerref_kind
 kubeconfig
 Kubeconfigs
 kubeconform
@@ -599,6 +600,8 @@ reportserver
 reportsstream
 requirepass
 resourcemanager
+resourcens
+resourcetype
 reviewdog
 rhai
 rocksdb

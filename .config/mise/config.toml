@@ -14,6 +14,7 @@ fzf = "latest"
 go = "latest"
 bun = "latest"
 codex = "latest"
+claude = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = []

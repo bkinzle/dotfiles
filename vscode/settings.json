@@ -10,7 +10,7 @@
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "explorer.compactFolders": false,
     "git.allowForcePush": true,
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Dark+",
     "search.exclude": {
         "**/.venv": true
     },

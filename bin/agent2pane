@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+REPO="${1:-~/projects/monorepo}"
+
+# Normalize: expand ~ then strip $HOME prefix so both forms produce the same suffix
+EXPANDED="${REPO/#\~/$HOME}"
+SUFFIX="${EXPANDED#$HOME/}"
+SUFFIX="${SUFFIX//\//-}"
+SESSION="agent2pane-${SUFFIX}"
+
+# Attach if session already exists
+if tmux has-session -t "$SESSION" 2>/dev/null; then
+  exec tmux attach -t "$SESSION"
+fi
+
+# Create new detached session
+tmux new-session -d -s "$SESSION"
+
+# Split left/right
+tmux split-window -h -t "$SESSION":0.0
+
+# Resize left pane to 42%
+tmux resize-pane -t "$SESSION":0.0 -x 42%
+
+# Set pane titles
+tmux select-pane -t "$SESSION":0.0 -T "lazygit"
+tmux select-pane -t "$SESSION":0.1 -T "claude"
+
+# Left: lazygit
+tmux send-keys -t "$SESSION":0.0 "cd $EXPANDED && lazygit" C-m
+
+# Right: claude
+tmux send-keys -t "$SESSION":0.1 "cd $EXPANDED && claude --effort max" C-m
+
+exec tmux attach -t "$SESSION"

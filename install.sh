@@ -53,7 +53,9 @@ mkdir -p ~/.config/ghostty
 ln -sf "$DOTFILES_DIR/.config/ghostty/config" ~/.config/ghostty/config
 ln -sf "$DOTFILES_DIR/.tmux.conf" ~/.tmux.conf
 mkdir -p ~/bin
+ln -sf "$DOTFILES_DIR/bin/agent2pane" ~/bin/agent2pane
 ln -sf "$DOTFILES_DIR/bin/agent4pane" ~/bin/agent4pane
+ln -sf "$DOTFILES_DIR/bin/claude2agent" ~/bin/claude2agent
 ln -sf "$DOTFILES_DIR/bin/helm-latest" ~/bin/helm-latest
 
 # Clone oh-my-zsh plugins if they don't exist

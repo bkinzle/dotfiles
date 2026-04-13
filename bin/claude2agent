@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SESSION="claude2agent"
+
+# Attach if session already exists
+if tmux has-session -t "$SESSION" 2>/dev/null; then
+  exec tmux attach -t "$SESSION"
+fi
+
+# Create new detached session
+tmux new-session -d -s "$SESSION"
+
+# Split top/bottom (top-left = pane 0, bottom-left = pane 1)
+tmux split-window -v -t "$SESSION":0.0
+
+# Split top-left into top-left / top-right (pane 0 = top-left, pane 1 = top-right)
+tmux split-window -h -t "$SESSION":0.0
+
+# Split bottom-left into bottom-left / bottom-right (pane 2 = bottom-left, pane 3 = bottom-right)
+tmux split-window -h -t "$SESSION":0.2
+
+# Set 30/70 vertical split — resize top panes to 30%
+tmux resize-pane -t "$SESSION":0.0 -y 30%
+tmux resize-pane -t "$SESSION":0.1 -y 30%
+
+# Set pane titles
+tmux select-pane -t "$SESSION":0.0 -T "Agent 1 - lazygit"
+tmux select-pane -t "$SESSION":0.1 -T "Agent 2 - lazygit"
+tmux select-pane -t "$SESSION":0.2 -T "Agent 1 - claude"
+tmux select-pane -t "$SESSION":0.3 -T "Agent 2 - claude"
+
+# Top-left: agent01 + lazygit
+tmux send-keys -t "$SESSION":0.0 'cd ~/agent01-projects/monorepo && lazygit' C-m
+
+# Top-right: agent02 + lazygit
+tmux send-keys -t "$SESSION":0.1 'cd ~/agent02-projects/monorepo && lazygit' C-m
+
+# Bottom-left: agent01 + claude
+tmux send-keys -t "$SESSION":0.2 'cd ~/agent01-projects/monorepo && claude --effort max' C-m
+
+# Bottom-right: agent02 + claude
+tmux send-keys -t "$SESSION":0.3 'cd ~/agent02-projects/monorepo && claude --effort max' C-m
+
+exec tmux attach -t "$SESSION"

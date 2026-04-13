@@ -1,5 +1,7 @@
 [fetch]
 	prune = true
+[pull]
+	rebase = true
 [core]
 	pager =
 [user]

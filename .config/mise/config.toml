@@ -15,6 +15,7 @@ go = "latest"
 bun = "latest"
 codex = "latest"
 claude = "latest"
+copilot = "latest"
 lazygit = "latest"
 
 [settings]

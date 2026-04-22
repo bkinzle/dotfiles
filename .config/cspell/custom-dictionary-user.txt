@@ -380,6 +380,7 @@ Kaniko
 kellys
 keybind
 keymanager
+keymap
 keyspace
 keytool
 kinit

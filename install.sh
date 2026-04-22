@@ -60,6 +60,7 @@ mkdir -p ~/.config/lazygit
 ln -sf "$DOTFILES_DIR/.config/lazygit/config.yml" ~/.config/lazygit/config.yml
 mkdir -p ~/.config/yazi
 ln -sf "$DOTFILES_DIR/.config/yazi/yazi.toml" ~/.config/yazi/yazi.toml
+ln -sf "$DOTFILES_DIR/.config/yazi/keymap.toml" ~/.config/yazi/keymap.toml
 mkdir -p ~/bin
 ln -sf "$DOTFILES_DIR/bin/agent2pane" ~/bin/agent2pane
 ln -sf "$DOTFILES_DIR/bin/agent4pane" ~/bin/agent4pane

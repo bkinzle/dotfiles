@@ -1,0 +1,4 @@
+[[mgr.prepend_keymap]]
+on   = [ "g", "w" ]
+run  = '''shell --orphan 'dir="$0"; [ -d "$dir" ] || dir="$(dirname "$dir")"; open -a Ghostty.app "$dir"' '''
+desc = "Open hovered path in a new Ghostty window"

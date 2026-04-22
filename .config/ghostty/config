@@ -56,3 +56,7 @@ scrollback-limit = 90000000
 # Newline (claude code/codex/etc)
 keybind = shift+enter=text:\n
 
+window-inherit-working-directory = false
+window-save-state = never
+working-directory = home
+macos-dock-drop-behavior = new-window

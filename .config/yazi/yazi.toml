@@ -1,2 +1,7 @@
 [mgr]
 show_hidden = true
+
+[opener]
+edit = [
+  { run = '$HOME/bin/code-with-root %s', desc = "code (git root)", orphan = true, for = "unix" },
+]

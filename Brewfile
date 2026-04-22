@@ -72,6 +72,18 @@ brew "tmux"
 # Simple terminal UI for git commands
 brew "lazygit"
 
+# Play, record, convert, and stream many audio and video codecs
+brew "ffmpeg-full"
+
+# Tools and libraries to manipulate images in select formats
+brew "imagemagick"
+
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
+
+# 7-Zip is a file archiver with a high compression ratio
+brew "sevenzip"
+
 ###############################################################################
 # Casks
 ###############################################################################

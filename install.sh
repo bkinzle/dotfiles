@@ -43,20 +43,27 @@ DOTFILES_DIR="$HOME/dotfiles"
 ln -sf "$DOTFILES_DIR/.config/starship.toml" ~/.config/starship.toml
 ln -sf "$DOTFILES_DIR/.zshrc" ~/.zshrc
 ln -sf "$DOTFILES_DIR/.zprofile" ~/.zprofile
+ln -sf "$DOTFILES_DIR/.zshenv" ~/.zshenv
 ln -sf "$DOTFILES_DIR/aliases.zsh" ~/.oh-my-zsh/custom/aliases.zsh
 ln -sf "$DOTFILES_DIR/.hushlogin" ~/.hushlogin
 mkdir -p ~/.config/mise
 ln -sf "$DOTFILES_DIR/.config/mise/config.toml" ~/.config/mise/config.toml
 ln -sf "$DOTFILES_DIR/vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json
 ln -sf "$DOTFILES_DIR/.gitconfig" ~/.gitconfig
+mkdir -p ~/.config/k9s
+ln -sf "$DOTFILES_DIR/.config/k9s/config.yaml" ~/.config/k9s/config.yaml
 mkdir -p ~/.config/ghostty
 ln -sf "$DOTFILES_DIR/.config/ghostty/config" ~/.config/ghostty/config
-ln -sf "$DOTFILES_DIR/.tmux.conf" ~/.tmux.conf
+mkdir -p ~/.config/tmux
+ln -sf "$DOTFILES_DIR/.config/tmux/tmux.conf" ~/.config/tmux/tmux.conf
+mkdir -p ~/.config/lazygit
+ln -sf "$DOTFILES_DIR/.config/lazygit/config.yml" ~/.config/lazygit/config.yml
 mkdir -p ~/bin
 ln -sf "$DOTFILES_DIR/bin/agent2pane" ~/bin/agent2pane
 ln -sf "$DOTFILES_DIR/bin/agent4pane" ~/bin/agent4pane
 ln -sf "$DOTFILES_DIR/bin/claude2agent" ~/bin/claude2agent
 ln -sf "$DOTFILES_DIR/bin/helm-latest" ~/bin/helm-latest
+ln -sf "$DOTFILES_DIR/bin/code-with-root" ~/bin/code-with-root
 
 # Clone oh-my-zsh plugins if they don't exist
 echo

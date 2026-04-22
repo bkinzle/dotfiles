@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# Wrap `code` so that when the target file is inside a git repo, the repo
+# root is also passed to `code` (opening the repo as the workspace folder).
+# When the file is not in a repo, args pass through unchanged.
+#
+# Usage mirrors `code`:
+#   code-with-root <file>
+#   code-with-root --goto <file>:<line>
+#   code-with-root --wait --goto <file>:<line>
+set -euo pipefail
+
+file=""
+for arg in "$@"; do
+  [[ "$arg" == -* ]] && continue
+  file="$arg"
+done
+
+path="${file%%:*}"
+
+root=""
+if [[ -n "$path" ]]; then
+  root=$(git -C "$(dirname -- "$path")" rev-parse --show-toplevel 2>/dev/null || true)
+fi
+
+if [[ -n "$root" ]]; then
+  exec code "$root" "$@"
+else
+  exec code "$@"
+fi

@@ -1,0 +1,5 @@
+os:
+  open: '$HOME/bin/code-with-root "{{filename}}"'
+  edit: '$HOME/bin/code-with-root "{{filename}}"'
+  editAtLine: '$HOME/bin/code-with-root --goto "{{filename}}:{{line}}"'
+  editAtLineAndWait: '$HOME/bin/code-with-root --wait --goto "{{filename}}:{{line}}"'

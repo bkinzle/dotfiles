@@ -31,6 +31,8 @@ appender
 appengine
 appname
 appuser
+aquasecurityofficial
+archiver
 argparse4j
 ariga
 artifactregistry
@@ -273,8 +275,10 @@ GCSTOGCS
 gdrive
 GENCODE
 genproto
+gerk
 getenv
 ghostty
+gitdir
 githubstatussyncer
 glusterfs
 googleusercontent
@@ -285,6 +289,7 @@ graphref
 graphviz
 groupbyattrs
 grpcio
+grpcurl
 GSSAPI
 gsutil
 hashboard
@@ -353,6 +358,7 @@ jlleitschuh
 jmxremote
 jobmanager
 jobstore
+jobvertex
 JOSDK
 jsonpickle
 jsonschema
@@ -452,6 +458,7 @@ Milli
 Millis
 mktemp
 monaspace
+monaspice
 MonaspiceNe
 MULTIGET
 multiquery
@@ -534,6 +541,7 @@ PODRESOURCES
 podsandbox
 pointerdir
 popd
+poppler
 portworxVolume
 posexplode
 postrenderer
@@ -646,11 +654,13 @@ servicenetworking
 sessioned
 setlocal
 setuptools
+sevenzip
 sfdc
 shellcheck
 shellenv
 shellness
 shortlinks
+shottr
 signum
 signup
 sinked
@@ -686,11 +696,13 @@ Strimzi's
 strpos
 subchart
 subcharts
+submonitor
 subresource
 supergraph
 supergraphs
 sysctls
 sysprobe
+tableplus
 TASKFILE
 taskflow
 tasklock
@@ -712,6 +724,7 @@ titlecase
 tmproj
 tojson
 tolerations
+toplevel
 touchpoints
 tracecontext
 tracefs
@@ -774,7 +787,9 @@ xcom
 xforwarded
 xlarge
 xolstice
+xpdf
 xxcr
+yazi
 yetus
 zaxxer
 Znode

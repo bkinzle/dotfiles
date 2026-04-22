@@ -17,6 +17,10 @@ codex = "latest"
 claude = "latest"
 copilot = "latest"
 lazygit = "latest"
+yazi = "latest"
+fd = "latest"
+ripgrep = "latest"
+zoxide = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = []

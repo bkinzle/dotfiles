@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO="${1:-~/projects/monorepo}"
+REPO="${1:-$PWD}"
 
 # Normalize: expand ~ then strip $HOME prefix so both forms produce the same suffix
 EXPANDED="${REPO/#\~/$HOME}"

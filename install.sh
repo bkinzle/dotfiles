@@ -58,6 +58,8 @@ mkdir -p ~/.config/tmux
 ln -sf "$DOTFILES_DIR/.config/tmux/tmux.conf" ~/.config/tmux/tmux.conf
 mkdir -p ~/.config/lazygit
 ln -sf "$DOTFILES_DIR/.config/lazygit/config.yml" ~/.config/lazygit/config.yml
+mkdir -p ~/.config/yazi
+ln -sf "$DOTFILES_DIR/.config/yazi/yazi.toml" ~/.config/yazi/yazi.toml
 mkdir -p ~/bin
 ln -sf "$DOTFILES_DIR/bin/agent2pane" ~/bin/agent2pane
 ln -sf "$DOTFILES_DIR/bin/agent4pane" ~/bin/agent4pane

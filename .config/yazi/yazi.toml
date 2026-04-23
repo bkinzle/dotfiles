@@ -1,5 +1,7 @@
 [mgr]
 show_hidden = true
+# parent:current:preview. The default is [1, 4, 3]
+ratio = [1, 2, 5]
 
 [opener]
 edit = [

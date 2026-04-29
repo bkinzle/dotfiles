@@ -316,6 +316,7 @@ Hugetlb
 hushlogin
 hyperdx
 IAMROLE
+icebergsink
 idna
 ifnull
 ilike
@@ -360,6 +361,7 @@ jobmanager
 jobstore
 jobvertex
 JOSDK
+JPMS
 jsonpickle
 jsonschema
 jsonsmart
@@ -390,6 +392,7 @@ kotest
 kotlinJVMAPM
 kotlinx
 kover
+Kryo
 ktlint
 ktor
 kube_ownerref_kind
@@ -402,6 +405,7 @@ kubeinvaders
 kubelet
 kubeletstats
 kustomization
+kversion
 labelmap
 lakehouse
 Lakekeeper

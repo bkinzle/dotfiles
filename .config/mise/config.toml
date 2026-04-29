@@ -21,6 +21,7 @@ yazi = "latest"
 fd = "latest"
 ripgrep = "latest"
 zoxide = "latest"
+argocd = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = []

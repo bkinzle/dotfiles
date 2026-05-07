@@ -93,6 +93,7 @@ cgroupfs
 chainguard
 changeit
 charliermarsh
+chartdb
 checkcoordinator
 checkpointing
 checksd
@@ -175,6 +176,7 @@ dateutil
 davidmc24
 dayhour
 dayofweek
+DBSCHEMA
 dbtable
 dbtuser
 dbug
@@ -225,6 +227,7 @@ endmacro
 endraw
 endset
 endsnapshot
+endswith
 engineproxy
 ensurepip
 envoyproxy
@@ -265,6 +268,7 @@ flocker
 fluentforward
 fmtfile
 fmtymlfile
+fname
 framesize
 fromjson
 gameified
@@ -284,6 +288,7 @@ glusterfs
 googleusercontent
 gradleup
 gradlew
+graphartifacts
 graphos
 graphref
 graphviz
@@ -385,6 +390,7 @@ keymanager
 keymap
 keyspace
 keytool
+kindnet
 kinit
 kmondor
 Koin
@@ -419,6 +425,7 @@ libyaml
 lifecyle
 linkinvalidator
 linuxkit
+listdir
 loadmodule
 loadqueuepeon
 localdev
@@ -461,6 +468,7 @@ michaelbull
 micromamba
 Milli
 Millis
+mixedbread
 mktemp
 monaspace
 monaspice
@@ -511,6 +519,7 @@ operationschecker
 orjson
 osascript
 OshiSysMonitor
+ossp
 ossrh
 otelcol
 OTHERSERVICEACCOUNTNAME
@@ -530,10 +539,14 @@ pemja
 persistedqueries
 persistentvolumeclaims
 persistentvolumes
+pg_dumpall
 pgadmin
 PGADMIN
 pgaudit
+pgcrypto
 pgpass
+PGPASSWORD
+pids
 PINGONE
 pipefail
 pipelinesworkers
@@ -603,6 +616,7 @@ REDISJSON
 REDISPORT
 redistimeseries
 referer
+regen
 Reingestion
 rejson
 Reloadable
@@ -703,6 +717,7 @@ subchart
 subcharts
 submonitor
 subresource
+subshell
 supergraph
 supergraphs
 sysctls
@@ -729,6 +744,7 @@ titlecase
 tmproj
 tojson
 tolerations
+tomllib
 toplevel
 touchpoints
 tracecontext

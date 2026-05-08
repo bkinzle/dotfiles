@@ -20,8 +20,8 @@ tmux new-session -d -s "$SESSION"
 # Split left/right
 tmux split-window -h -t "$SESSION":0.0
 
-# Resize left pane to 42%
-tmux resize-pane -t "$SESSION":0.0 -x 42%
+# Resize left pane to 38%
+tmux resize-pane -t "$SESSION":0.0 -x 38%
 
 # Set pane titles
 tmux select-pane -t "$SESSION":0.0 -T "lazygit"

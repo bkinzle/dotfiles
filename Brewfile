@@ -2,6 +2,8 @@
 # Taps
 ###############################################################################
 
+tap "jetbrains/utils"
+
 ###############################################################################
 # Formulae
 ###############################################################################
@@ -69,9 +71,6 @@ brew "apache-flink"
 # Terminal multiplexer
 brew "tmux"
 
-# Simple terminal UI for git commands
-brew "lazygit"
-
 # Play, record, convert, and stream many audio and video codecs
 brew "ffmpeg-full"
 
@@ -83,6 +82,9 @@ brew "poppler"
 
 # 7-Zip is a file archiver with a high compression ratio
 brew "sevenzip"
+
+# Official Language Server Protocol for the Kotlin language
+brew "jetbrains/utils/kotlin-lsp"
 
 ###############################################################################
 # Casks
@@ -143,7 +145,7 @@ cask "font-fira-mono-nerd-font"
 vscode "aquasecurityofficial.trivy-vulnerability-scanner"
 vscode "docker.docker"
 vscode "eamodio.gitlens"
-vscode "github.copilot"
+vscode "GitHub.copilot-chat"
 vscode "sanjulaganepola.github-local-actions"
 vscode "mhutchie.git-graph"
 vscode "redhat.vscode-yaml"

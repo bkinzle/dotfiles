@@ -23,6 +23,8 @@ ripgrep = "latest"
 zoxide = "latest"
 argocd = "latest"
 "npm:@mixedbread/mgrep" = "latest"
+"github:ahmetb/kubectl-tree" = "latest"
+"github:tohjustin/kube-lineage" = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = []

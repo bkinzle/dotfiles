@@ -11,6 +11,7 @@ adminclient
 admissionregistration
 Adoptium
 adrs
+ahmetb
 AIRTABLE
 aiven
 Aiven's
@@ -70,6 +71,7 @@ blocklisted
 blueapron
 bothify
 bpffs
+brewu
 BUCKETNAME
 bufferpool
 buildmessagereader
@@ -209,6 +211,7 @@ dogstatsdport
 Dorg
 dotenv
 dpage
+dprune
 druidcustodian
 druidspecs
 dsdsocket
@@ -410,6 +413,7 @@ kubectx
 kubeinvaders
 kubelet
 kubeletstats
+kubens
 kustomization
 kversion
 labelmap
@@ -742,6 +746,7 @@ timgroup
 tini
 titlecase
 tmproj
+tohjustin
 tojson
 tolerations
 tomllib

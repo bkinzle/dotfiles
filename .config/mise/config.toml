@@ -27,6 +27,12 @@ k6 = "latest"
 "github:ahmetb/kubectl-tree" = "latest"
 "github:tohjustin/kube-lineage" = "latest"
 
+# helm-unittest is a Helm plugin (not in mise's registry); install it via a
+# helm-scoped postinstall hook. Idempotent; Helm 4 needs --verify=false.
+[tools.helm]
+version = "latest"
+postinstall = "helm plugin list | grep -q unittest || helm plugin install https://github.com/helm-unittest/helm-unittest.git --verify=false"
+
 [settings]
 idiomatic_version_file_enable_tools = []
 experimental = true

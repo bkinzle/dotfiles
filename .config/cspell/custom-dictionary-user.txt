@@ -14,6 +14,7 @@ adrs
 Agentgateway
 agentgatewayparameters
 agentgatewaypolicy
+aggs
 ahmetb
 AIRTABLE
 aiven
@@ -252,6 +253,7 @@ errorlens
 ERRORLEVEL
 esac
 eventtime
+evictable
 excepthook
 extauth
 EXTD
@@ -438,6 +440,7 @@ kubeletstats
 kubens
 kustomization
 kversion
+Kyro
 labelmap
 lakehouse
 Lakekeeper
@@ -810,6 +813,7 @@ ttfb
 Turbopack
 typeinfo
 typesafe
+typeutils
 tzdata
 udproutes
 unannounce

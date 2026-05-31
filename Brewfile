@@ -32,9 +32,6 @@ brew "mise"
 # Task is a task runner/build tool that aims to be simpler and easier to use
 brew "go-task"
 
-# Kubernetes package manager
-brew "helm"
-
 # Kubernetes command-line interface
 brew "kubernetes-cli"
 

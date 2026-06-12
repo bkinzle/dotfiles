@@ -54,6 +54,7 @@ autopushdown
 autoreg
 autoregdetector
 autoregpromoter
+autoscales
 autostash
 avsc
 awscred
@@ -152,6 +153,7 @@ coredns
 Corefile
 coroot
 COROOT
+crashloop
 crashloopbackon
 crcmod
 crcs

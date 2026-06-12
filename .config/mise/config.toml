@@ -4,7 +4,6 @@ maven = "3"
 python = "3.14"
 terraform = "1"
 terragrunt = "latest"
-uv = "latest"
 devspace = "latest"
 jq = "latest"
 yq = "latest"
@@ -13,8 +12,6 @@ node = "latest"
 fzf = "latest"
 go = "latest"
 bun = "latest"
-codex = "latest"
-claude = "latest"
 copilot = "latest"
 lazygit = "latest"
 yazi = "latest"
@@ -26,6 +23,18 @@ k6 = "latest"
 "npm:@mixedbread/mgrep" = "latest"
 "github:ahmetb/kubectl-tree" = "latest"
 "github:tohjustin/kube-lineage" = "latest"
+
+[tools.uv]
+version = "latest"
+minimum_release_age = "0s"
+
+[tools.claude]
+version = "latest"
+minimum_release_age = "0s"
+
+[tools.codex]
+version = "latest"
+minimum_release_age = "0s"
 
 # helm-unittest is a Helm plugin (not in mise's registry); install it via a
 # helm-scoped postinstall hook. Idempotent; Helm 4 needs --verify=false.

@@ -31,6 +31,6 @@ tmux select-pane -t "$SESSION":0.1 -T "claude"
 tmux send-keys -t "$SESSION":0.0 "cd $EXPANDED && lazygit" C-m
 
 # Right: claude
-tmux send-keys -t "$SESSION":0.1 "cd $EXPANDED && claude --model opus" C-m
+tmux send-keys -t "$SESSION":0.1 "cd $EXPANDED && claude --model 'opus[1m]'" C-m
 
 exec tmux attach -t "$SESSION"

@@ -1,0 +1,6 @@
+# Global gitignore — applies to every repo via core.excludesfile in .gitconfig.
+# For machine-local / tool-generated artifacts that should never be committed
+# to any repo, regardless of that repo's own .gitignore.
+
+# CodeGraph local index (database, daemon pid/socket, logs) — per-machine, not for committing.
+.codegraph/

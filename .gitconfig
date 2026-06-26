@@ -4,6 +4,7 @@
 	rebase = true
 [core]
 	pager =
+	excludesfile = ~/dotfiles/.gitignore_global
 [user]
 	name = Brandt Kinzle
 	email = 114622981+bkinzle@users.noreply.github.com

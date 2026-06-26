@@ -263,6 +263,7 @@ esac
 eventtime
 evictable
 excepthook
+excludesfile
 extauth
 EXTD
 fanout

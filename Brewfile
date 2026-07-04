@@ -129,6 +129,9 @@ cask "shottr", greedy: true
 # Native GUI tool for relational databases
 cask "tableplus", greedy: true
 
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian", greedy: true
+
 # Fonts
 cask "font-hack-nerd-font"
 cask "font-monaspice-nerd-font"

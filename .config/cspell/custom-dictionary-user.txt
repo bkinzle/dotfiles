@@ -15,6 +15,7 @@ adrs
 Agentgateway
 agentgatewayparameters
 agentgatewaypolicy
+agentic
 aggs
 ahmetb
 AIRTABLE
@@ -146,6 +147,7 @@ colbymchenry
 COLDLINE
 Collibra
 condarc
+conds
 confd
 configdelivery
 configmap
@@ -190,6 +192,7 @@ datahub
 datalake
 DATALAKE
 dataproc
+datasheets
 datasketches
 datastax
 datastudio
@@ -262,6 +265,7 @@ errorifexists
 errorlens
 ERRORLEVEL
 esac
+evals
 eventtime
 evictable
 excepthook
@@ -276,6 +280,8 @@ fasterxml
 fastmcp
 featureusageanalytics
 FEATUREUSAGEANALYTICSVALUE
+fema
+fetchrow
 FETCHSIZE
 fileoutputcommitter
 finalizers
@@ -309,6 +315,7 @@ GCSTOGCS
 gdrive
 GENCODE
 genproto
+geocodable
 gerk
 getenv
 ghostty
@@ -316,6 +323,7 @@ gitdir
 githubstatussyncer
 glusterfs
 googleusercontent
+gqlgen
 gradleup
 gradlew
 graphartifacts
@@ -372,6 +380,7 @@ ingester
 Ingestionregulator
 initdb
 installinfo
+Instrumentor
 insync
 ipykernel
 ipynb
@@ -439,6 +448,7 @@ kotest
 kotlinJVMAPM
 kotlinx
 kover
+kpctl
 Kruise
 Kryo
 ktlint
@@ -459,6 +469,7 @@ Kyro
 labelmap
 lakehouse
 Lakekeeper
+langgraph
 LANGSMITH
 Larah
 lastcheckpointduration
@@ -517,8 +528,11 @@ michaelbull
 micromamba
 Milli
 Millis
+MISMO
 mixedbread
 mktemp
+mlflow
+mlruns
 modelcontextprotocol
 monaspace
 monaspice
@@ -530,6 +544,7 @@ mutationwebhook
 mypy
 nanos
 nbconvert
+negotiables
 nestedness
 netns
 nindent
@@ -556,7 +571,9 @@ okhttp
 olap
 ollama
 oncall
+oneline
 Oneofs
+ONNX
 opcol
 opcol-postgres
 openAPIV3Schema
@@ -685,6 +702,7 @@ replicasets
 reportserver
 reportsstream
 requirepass
+RESO
 resourcemanager
 resourcens
 resourcetype
@@ -704,6 +722,7 @@ S3ACCESSKEY
 S3SECRETKEY
 safelist
 safelisting
+safetensors
 samplecount
 sandboxed
 sandboxer
@@ -730,6 +749,7 @@ serviceaccounts
 serviceagent
 servicenetworking
 sessioned
+setex
 setlocal
 setuptools
 sevenzip
@@ -855,6 +875,7 @@ unhex
 unhexlify
 unixsocket
 unparseable
+unpickle
 unrenamed
 unshallow
 unskipped
@@ -866,6 +887,7 @@ UPPERBOUND
 upserted
 upserting
 urandom
+URLA
 urlencode
 urllib3
 urql
@@ -875,6 +897,7 @@ uvicorn
 validatingadmissionpolicy
 validatingadmissionpolicybinding
 validationwebhook
+VALKEY
 varchar
 vcpus
 venv

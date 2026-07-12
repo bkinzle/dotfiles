@@ -31,7 +31,7 @@ minimum_release_age = "0s"
 version = "latest"
 minimum_release_age = "0s"
 
-[tools.codex]
+[tools."npm:@openai/codex"]
 version = "latest"
 minimum_release_age = "0s"
 

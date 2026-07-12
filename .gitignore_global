@@ -4,3 +4,5 @@
 
 # CodeGraph local index (database, daemon pid/socket, logs) — per-machine, not for committing.
 .codegraph/
+
+**/.claude/settings.local.json

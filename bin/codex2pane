@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+REPO="${1:-$PWD}"
+
+# Normalize: expand ~ then strip $HOME prefix so both forms produce the same suffix
+EXPANDED="${REPO/#\~/$HOME}"
+SUFFIX="${EXPANDED#$HOME/}"
+SUFFIX="${SUFFIX//\//-}"
+SESSION="codex2pane-${SUFFIX}"
+
+# Attach if session already exists
+if tmux has-session -t "$SESSION" 2>/dev/null; then
+  exec tmux attach -t "$SESSION"
+fi
+
+# Create new detached session
+tmux new-session -d -s "$SESSION"
+
+# Split left/right
+tmux split-window -h -t "$SESSION":0.0
+
+# Resize left pane to 35%
+tmux resize-pane -t "$SESSION":0.0 -x 35%
+
+# Set pane titles
+tmux select-pane -t "$SESSION":0.0 -T "lazygit"
+tmux select-pane -t "$SESSION":0.1 -T "codex"
+
+# Left: lazygit
+tmux send-keys -t "$SESSION":0.0 "cd $EXPANDED && lazygit" C-m
+
+# Right: codex
+tmux send-keys -t "$SESSION":0.1 "cd $EXPANDED && codex" C-m
+
+exec tmux attach -t "$SESSION"

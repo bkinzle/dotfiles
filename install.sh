@@ -63,6 +63,7 @@ ln -sf "$DOTFILES_DIR/.config/yazi/yazi.toml" ~/.config/yazi/yazi.toml
 ln -sf "$DOTFILES_DIR/.config/yazi/keymap.toml" ~/.config/yazi/keymap.toml
 mkdir -p ~/bin
 ln -sf "$DOTFILES_DIR/bin/agent2pane" ~/bin/agent2pane
+ln -sf "$DOTFILES_DIR/bin/codex2pane" ~/bin/codex2pane
 ln -sf "$DOTFILES_DIR/bin/agent4pane" ~/bin/agent4pane
 ln -sf "$DOTFILES_DIR/bin/claude2agent" ~/bin/claude2agent
 ln -sf "$DOTFILES_DIR/bin/helm-latest" ~/bin/helm-latest

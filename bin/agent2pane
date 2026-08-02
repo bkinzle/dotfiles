@@ -3,6 +3,14 @@ set -euo pipefail
 
 REPO="${1:-$PWD}"
 
+# Hold idle-sleep and display-sleep assertions for as long as claude runs, so
+# stepping away mid-task doesn't suspend the machine or blank the screen.
+# Set AGENT2PANE_CAFFEINATE=0 to opt out.
+CAFFEINATE=""
+if [[ "${AGENT2PANE_CAFFEINATE:-1}" != "0" ]] && command -v caffeinate >/dev/null 2>&1; then
+  CAFFEINATE="caffeinate -di "
+fi
+
 # Normalize: expand ~ then strip $HOME prefix so both forms produce the same suffix
 EXPANDED="${REPO/#\~/$HOME}"
 SUFFIX="${EXPANDED#$HOME/}"
@@ -31,6 +39,6 @@ tmux select-pane -t "$SESSION":0.1 -T "claude"
 tmux send-keys -t "$SESSION":0.0 "cd $EXPANDED && lazygit" C-m
 
 # Right: claude
-tmux send-keys -t "$SESSION":0.1 "cd $EXPANDED && claude --model 'opus[1m]'" C-m
+tmux send-keys -t "$SESSION":0.1 "cd $EXPANDED && ${CAFFEINATE}claude --model 'opus[1m]'" C-m
 
 exec tmux attach -t "$SESSION"

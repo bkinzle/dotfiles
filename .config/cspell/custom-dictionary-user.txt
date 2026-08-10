@@ -3,6 +3,7 @@ ABBRV
 accesskey
 accesstoken
 acephei
+acking
 acks
 ADBC
 addext
@@ -69,6 +70,7 @@ basicauth
 bdist
 beautifulsoup
 behaviour
+behavioural
 benmanes
 BIGLAKE
 BIGNUMERIC
@@ -380,6 +382,7 @@ inferschema
 ingester
 Ingestionregulator
 initdb
+inspectable
 installinfo
 Instrumentor
 insync
@@ -481,6 +484,7 @@ libprotoc
 librdkafka
 libyaml
 lifecyle
+likec4
 linejoin
 linkinvalidator
 linuxkit
@@ -509,6 +513,7 @@ mapreduce
 marimo
 Marketo
 marksuccessfuljobs
+marp
 masterauth
 matplotlib
 MAXAGGREGATERESULTS
@@ -653,6 +658,7 @@ protos
 PRQT
 psql
 psycopg
+pushback
 pushd
 pushgateway
 pyarrow
@@ -685,12 +691,14 @@ Rainu
 rawtypes
 rdjson
 rdkafka
+Rebuildable
 recurly
 redisbloom
 redisearch
 REDISJSON
 REDISPORT
 redistimeseries
+Redpanda
 referencegrants
 referer
 regen
@@ -698,6 +706,7 @@ Reingestion
 rejson
 Reloadable
 relogin
+replayable
 replayer
 replicasets
 reportserver
@@ -708,6 +717,7 @@ resourcemanager
 resourcens
 resourcetype
 reviewdog
+revisioned
 rhai
 rocksdb
 rolearn
@@ -856,6 +866,7 @@ traceparent
 traceport
 tracestate
 trafficrouting
+transactionally
 treemap
 triggerer
 trixie

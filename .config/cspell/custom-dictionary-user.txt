@@ -773,6 +773,7 @@ shortlinks
 shottr
 showarrow
 showgrid
+SIEM
 signum
 signup
 sinked
@@ -867,6 +868,7 @@ traceport
 tracestate
 trafficrouting
 transactionally
+travelling
 treemap
 triggerer
 trixie

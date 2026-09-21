@@ -63,6 +63,7 @@ autoscales
 autostash
 avsc
 awscred
+backendless
 backendtlspolicies
 backpressure
 barmode
@@ -105,6 +106,7 @@ cephfs
 certifi
 CERTKEY
 certmanager
+cfargotunnel
 cffi
 cfgpath
 cgroupfs
@@ -112,6 +114,7 @@ chainguard
 changeit
 charliermarsh
 chartdb
+chdir
 checkcoordinator
 checkpointing
 checksd
@@ -219,6 +222,7 @@ devcontainers
 develocity
 devspace
 dghttp
+diggerhq
 distro
 distroless
 Djava
@@ -231,6 +235,7 @@ Dmaven
 dmypy
 dnsjava
 DNSMASQ
+DNSSEC
 Dockerfiles
 dockerhub
 dogstatsdport
@@ -247,6 +252,7 @@ duckdb
 ebpf
 edgemodifier
 elif
+elznik
 EMEA
 emerg
 endcall
@@ -370,6 +376,7 @@ Hugetlb
 hushlogin
 hyperdx
 IAMROLE
+ICANN
 icebergsink
 idna
 ifnull
@@ -445,6 +452,7 @@ keyspace
 keytool
 kgateway
 kindnet
+kingpintech
 kinit
 kmondor
 Koin
@@ -691,6 +699,7 @@ Rainu
 rawtypes
 rdjson
 rdkafka
+rebranded
 Rebuildable
 recurly
 redisbloom
@@ -791,6 +800,7 @@ sqlalchemy
 sqlfluff
 sqlfluffignore
 sqlmodel
+ssencryption
 sslmode
 stackgroup
 stagingschemapromoter
@@ -836,6 +846,8 @@ temurin
 terragrunt
 textangle
 tfenv
+tflint
+tfstate
 thomaskwscott
 threefi
 tickfont
@@ -885,6 +897,7 @@ typeutils
 tzdata
 udproutes
 unannounce
+unconfigured
 Undeploying
 unhex
 unhexlify

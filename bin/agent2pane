@@ -11,34 +11,52 @@ if [[ "${AGENT2PANE_CAFFEINATE:-1}" != "0" ]] && command -v caffeinate >/dev/nul
   CAFFEINATE="caffeinate -di "
 fi
 
-# Normalize: expand ~ then strip $HOME prefix so both forms produce the same suffix
+# Expand ~ and resolve relative paths before deriving the session name.
 EXPANDED="${REPO/#\~/$HOME}"
-SUFFIX="${EXPANDED#$HOME/}"
+if [[ ! -d "$EXPANDED" ]]; then
+  printf 'Not a directory: %s\n' "$EXPANDED" >&2
+  exit 1
+fi
+EXPANDED="$(CDPATH='' cd -- "$EXPANDED" && pwd -P)"
+
+# Strip the home directory prefix to keep session names concise.
+SUFFIX="${EXPANDED#"$HOME"/}"
 SUFFIX="${SUFFIX//\//-}"
+# Colons delimit session names in tmux targets.
+SUFFIX="${SUFFIX//:/_}"
 SESSION="agent2pane-${SUFFIX}"
+# Match exactly and qualify as a session, even when its name contains dots.
+SESSION_TARGET="=${SESSION}:"
+
+attach_session() {
+  # Set the outer terminal title, escaping literal # characters in tmux formats.
+  tmux set-option -t "$SESSION_TARGET" set-titles-string "agent2pane ${EXPANDED//#/##}"
+  tmux set-option -t "$SESSION_TARGET" set-titles on
+  exec tmux attach -t "$SESSION_TARGET"
+}
 
 # Attach if session already exists
-if tmux has-session -t "$SESSION" 2>/dev/null; then
-  exec tmux attach -t "$SESSION"
+if tmux has-session -t "$SESSION_TARGET" 2>/dev/null; then
+  attach_session
 fi
 
-# Create new detached session
-tmux new-session -d -s "$SESSION"
+# Capture pane IDs and escape literal # characters in tmux format arguments.
+LEFT_PANE="$(tmux new-session -d -s "${SESSION//#/##}" -c "${EXPANDED//#/##}" -P -F '#{pane_id}')"
 
 # Split left/right
-tmux split-window -h -t "$SESSION":0.0
+RIGHT_PANE="$(tmux split-window -h -t "$LEFT_PANE" -c "${EXPANDED//#/##}" -P -F '#{pane_id}')"
 
 # Resize left pane to 35%
-tmux resize-pane -t "$SESSION":0.0 -x 35%
+tmux resize-pane -t "$LEFT_PANE" -x 35%
 
 # Set pane titles
-tmux select-pane -t "$SESSION":0.0 -T "lazygit"
-tmux select-pane -t "$SESSION":0.1 -T "claude"
+tmux select-pane -t "$LEFT_PANE" -T "lazygit"
+tmux select-pane -t "$RIGHT_PANE" -T "claude"
 
 # Left: lazygit
-tmux send-keys -t "$SESSION":0.0 "cd $EXPANDED && lazygit" C-m
+tmux send-keys -t "$LEFT_PANE" "lazygit" C-m
 
 # Right: claude
-tmux send-keys -t "$SESSION":0.1 "cd $EXPANDED && ${CAFFEINATE}claude --model 'opus[1m]'" C-m
+tmux send-keys -t "$RIGHT_PANE" "${CAFFEINATE}claude --model fable" C-m
 
-exec tmux attach -t "$SESSION"
+attach_session

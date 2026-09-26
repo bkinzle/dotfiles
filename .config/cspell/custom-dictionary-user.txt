@@ -99,6 +99,7 @@ bzrignore
 cachetools
 Caddyfile
 cadvisor
+CAFFEINATE
 callsite
 capitalisation
 CDPATH

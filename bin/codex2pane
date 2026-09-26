@@ -3,34 +3,60 @@ set -euo pipefail
 
 REPO="${1:-$PWD}"
 
-# Normalize: expand ~ then strip $HOME prefix so both forms produce the same suffix
-EXPANDED="${REPO/#\~/$HOME}"
-SUFFIX="${EXPANDED#$HOME/}"
-SUFFIX="${SUFFIX//\//-}"
-SESSION="codex2pane-${SUFFIX}"
-
-# Attach if session already exists
-if tmux has-session -t "$SESSION" 2>/dev/null; then
-  exec tmux attach -t "$SESSION"
+# Hold idle-sleep and display-sleep assertions for as long as codex runs, so
+# stepping away mid-task doesn't suspend the machine or blank the screen.
+# Set CODEX2PANE_CAFFEINATE=0 to opt out.
+CAFFEINATE=""
+if [[ "${CODEX2PANE_CAFFEINATE:-1}" != "0" ]] && command -v caffeinate >/dev/null 2>&1; then
+  CAFFEINATE="caffeinate -di "
 fi
 
-# Create new detached session
-tmux new-session -d -s "$SESSION"
+# Expand ~ and resolve relative paths before deriving the session name.
+EXPANDED="${REPO/#\~/$HOME}"
+if [[ ! -d "$EXPANDED" ]]; then
+  printf 'Not a directory: %s\n' "$EXPANDED" >&2
+  exit 1
+fi
+EXPANDED="$(CDPATH='' cd -- "$EXPANDED" && pwd -P)"
+
+# Strip the home directory prefix to keep session names concise.
+SUFFIX="${EXPANDED#"$HOME"/}"
+SUFFIX="${SUFFIX//\//-}"
+# Colons delimit session names in tmux targets.
+SUFFIX="${SUFFIX//:/_}"
+SESSION="codex2pane-${SUFFIX}"
+# Match exactly and qualify as a session, even when its name contains dots.
+SESSION_TARGET="=${SESSION}:"
+
+attach_session() {
+  # Set the outer terminal title, escaping literal # characters in tmux formats.
+  tmux set-option -t "$SESSION_TARGET" set-titles-string "codex2pane ${EXPANDED//#/##}"
+  tmux set-option -t "$SESSION_TARGET" set-titles on
+  exec tmux attach -t "$SESSION_TARGET"
+}
+
+# Attach if session already exists
+if tmux has-session -t "$SESSION_TARGET" 2>/dev/null; then
+  attach_session
+fi
+
+# Capture pane IDs and escape literal # characters in tmux format arguments.
+LEFT_PANE="$(tmux new-session -d -s "${SESSION//#/##}" -c "${EXPANDED//#/##}" -P -F '#{pane_id}')"
 
 # Split left/right
-tmux split-window -h -t "$SESSION":0.0
+RIGHT_PANE="$(tmux split-window -h -t "$LEFT_PANE" -c "${EXPANDED//#/##}" -P -F '#{pane_id}')"
 
 # Resize left pane to 35%
-tmux resize-pane -t "$SESSION":0.0 -x 35%
+tmux resize-pane -t "$LEFT_PANE" -x 35%
 
 # Set pane titles
-tmux select-pane -t "$SESSION":0.0 -T "lazygit"
-tmux select-pane -t "$SESSION":0.1 -T "codex"
+tmux select-pane -t "$LEFT_PANE" -T "lazygit"
+tmux select-pane -t "$RIGHT_PANE" -T "codex"
 
 # Left: lazygit
-tmux send-keys -t "$SESSION":0.0 "cd $EXPANDED && lazygit" C-m
+tmux send-keys -t "$LEFT_PANE" "lazygit" C-m
 
 # Right: codex
-tmux send-keys -t "$SESSION":0.1 "cd $EXPANDED && codex" C-m
+tmux send-keys -t "$RIGHT_PANE" "${CAFFEINATE}codex" C-m
 
-exec tmux attach -t "$SESSION"
+attach_session

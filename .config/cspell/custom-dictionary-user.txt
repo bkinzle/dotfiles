@@ -101,6 +101,7 @@ Caddyfile
 cadvisor
 CAFFEINATE
 callsite
+Capfile
 capitalisation
 CDPATH
 cephfs
@@ -149,6 +150,7 @@ codahale
 codegen
 codegraph
 Codeowners
+coderay
 colbymchenry
 COLDLINE
 Collibra
@@ -329,6 +331,7 @@ geocodable
 gerk
 getenv
 ghostty
+giscus
 gitdir
 githubstatussyncer
 glusterfs
@@ -347,6 +350,8 @@ grpcroutes
 grpcurl
 GSSAPI
 gsutil
+gtag
+gulpfile
 hashboard
 hdfs
 hdrs
@@ -487,6 +492,7 @@ LANGSMITH
 Larah
 lastcheckpointduration
 ldflags
+ldquo
 libexec
 libpq
 libprotoc
@@ -514,6 +520,7 @@ logscontainerspath
 LOWERBOUND
 lowprio
 lpad
+lsquo
 ltrim
 lxml
 macbooks
@@ -545,6 +552,8 @@ Milli
 Millis
 MISMO
 mixedbread
+mkdn
+mkdown
 mktemp
 mlflow
 mlruns
@@ -697,9 +706,11 @@ pyyaml
 quantiles
 quobyte
 Rainu
+Rakefile
 rawtypes
 rdjson
 rdkafka
+rdquo
 rebranded
 Rebuildable
 recurly
@@ -736,6 +747,7 @@ rollouts
 rollup
 rollups
 rrweb
+rsquo
 ruamel
 Runbook
 runtimesocketdir

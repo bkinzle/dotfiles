@@ -54,3 +54,8 @@ experimental = true
 
 [settings.python]
 uv_venv_auto = true
+
+# gh keeps its token in the macOS keyring, which mise can't read (it only reads
+# gh's hosts.yml), so ask gh for it. Avoids the 60/hr unauthenticated limit.
+[settings.github]
+credential_command = 'gh auth token --hostname "$MISE_CREDENTIAL_HOST"'

@@ -108,8 +108,8 @@ cask "firefox", greedy: true
 # Web browser
 cask "google-chrome", greedy: true
 
-# Chromium based browser
-cask "arc", greedy: true
+# Web browser
+cask "thebrowsercompany-dia", greedy: true
 
 # Open-source code editor
 cask "visual-studio-code", greedy: true
